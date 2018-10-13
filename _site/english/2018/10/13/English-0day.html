@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer=true src="/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/flow-favi.ico" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/english/2018/10/13/English-0day.html">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Flow" href="http://localhost:4000///feed.xml"/>
+
+    <!-- Font Awesome -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendor/font-awesome.min.css">
+    
+    
+
+    <!-- Google Fonts -->
+    
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+    
+
+    <!-- KaTeX 0.8.3 -->
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendor/katex.min.css">
+    <script src="/assets/js/vendor/katex.min.js">
+    </script>
+    
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-127418594-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    
+    
+    <!-- seo tags -->
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>영어 목표 | Hacking for my life</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="영어 목표" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="지금까지 영어공부를 하지 않은 것은 아니다. 그렇다고 꾸준히 해서 결과를 냈던 것도 아니다. 사실, 내가 생각하기에 나의 영어실력은 완전 초짜는 아니라고 생각하고 있다. 공인 영어 시험을 토익, 토플 봤었지만 학생 때나 봤었다. 그러니까 10년은 훨씬 넘은 것 같다. 그 이후 그 영어 시험이 나에게는 필요 없었다. 심지어 이직할 때도 영어 시험 성적표는 필요 없었다." />
+<meta property="og:description" content="지금까지 영어공부를 하지 않은 것은 아니다. 그렇다고 꾸준히 해서 결과를 냈던 것도 아니다. 사실, 내가 생각하기에 나의 영어실력은 완전 초짜는 아니라고 생각하고 있다. 공인 영어 시험을 토익, 토플 봤었지만 학생 때나 봤었다. 그러니까 10년은 훨씬 넘은 것 같다. 그 이후 그 영어 시험이 나에게는 필요 없었다. 심지어 이직할 때도 영어 시험 성적표는 필요 없었다." />
+<link rel="canonical" href="http://localhost:4000/english/2018/10/13/English-0day.html" />
+<meta property="og:url" content="http://localhost:4000/english/2018/10/13/English-0day.html" />
+<meta property="og:site_name" content="Hacking for my life" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-10-13T00:00:00+09:00" />
+<script type="application/ld+json">
+{"description":"지금까지 영어공부를 하지 않은 것은 아니다. 그렇다고 꾸준히 해서 결과를 냈던 것도 아니다. 사실, 내가 생각하기에 나의 영어실력은 완전 초짜는 아니라고 생각하고 있다. 공인 영어 시험을 토익, 토플 봤었지만 학생 때나 봤었다. 그러니까 10년은 훨씬 넘은 것 같다. 그 이후 그 영어 시험이 나에게는 필요 없었다. 심지어 이직할 때도 영어 시험 성적표는 필요 없었다.","@type":"BlogPosting","url":"http://localhost:4000/english/2018/10/13/English-0day.html","headline":"영어 목표","dateModified":"2018-10-13T00:00:00+09:00","datePublished":"2018-10-13T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/english/2018/10/13/English-0day.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Manual seo tags -->
+    <!--
+    <title>영어 목표 | Flow</title>
+    <meta name="description" content="지금까지 영어공부를 하지 않은 것은 아니다. 그렇다고 꾸준히 해서 결과를 냈던 것도 아니다. 사실, 내가 생각하기에 나의 영어실력은 완전 초짜는 아니라고 생각하고 있다. 공인 영어 시험을 토익, 토플 봤었지만 학생 때나 봤었다. 그러니까 10년은 훨씬 넘은 것 같다. 그 이후 그 ...">
+    -->
+</head>
+
+  <body>
+    <header class="site-header">
+    
+    <!-- Logo and title -->
+	<div class="branding">
+		<a href="/">
+			<img class="avatar" src="/assets/img/flow1.png" alt=""/>
+		</a>
+
+		<h1 class="site-title">
+			<a href="/">Flow</a>
+		</h1>
+	</div>
+    
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+    
+    <!-- Menu -->
+    <ul class="hide">
+        <!-- Auto Generation of NORMAL pages in the navbar -->
+        
+        
+        
+        
+        
+        
+        
+        <li class="separator"> | </li>
+        <li>
+            <a class="clear" href="/about/">
+                About
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        
+        <!-- Auto Generation of SPECIAL pages in the navbar -->
+        
+          
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" href="http://localhost:4000/search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </li>
+          
+        
+          
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" href="http://localhost:4000/tags">
+                    <i class="fa fa-tags" aria-hidden="true"></i>
+                </a>
+            </li>
+          
+        
+    </ul>
+        
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header id="main" style="background-image: url('/')">
+    <h1 id="%EC%98%81%EC%96%B4+%EB%AA%A9%ED%91%9C" class="title">영어 목표</h1>
+    <p class="meta">
+    October 13, 2018
+    
+    </p>
+  </header>
+  <section class="post-content">
+  
+    <p>지금까지 영어공부를 하지 않은 것은 아니다. 그렇다고 꾸준히 해서 결과를 냈던 것도 아니다. 사실, 내가 생각하기에 나의 영어실력은 완전 초짜는 아니라고 생각하고 있다. 공인 영어 시험을 토익, 토플 봤었지만 학생 때나 봤었다. 그러니까 10년은 훨씬 넘은 것 같다. 그 이후 그 영어 시험이 나에게는 필요 없었다. 심지어 이직할 때도 영어 시험 성적표는 필요 없었다.</p>
+
+<p>그러나 현재 대기업을 다니고 있지만, 요즘 신입사원들 영어 스펙을 보면 엄청나다. 나라면 그 정도 점수는 만들지 못 했을 것 같다. 그리고 그게 기준선이라면 현재 회사에 입사조차 기회가 없었을 것이다. 또한 점수 뿐만 아니라 실제 영어회화 실력이 뛰어나다. 그래서 지금의 나는 많이 부끄럽기도 하다.</p>
+
+<p>현재 나는 운이 좋게도(?) 해외업무를 지원하는 일을 하고 있다. 대화의 대상은 엔지니어가 아닌 영업/마케팅 등의 기술을 모르는 사람이 훨씬 더 많아지게 된 것이다. 그렇다고 엔지니어들과 영어를 편하게 하는 것은 아니다. 언젠가 다른 부서의 사람들과 독일로 출장을 갔다. 사업 쪽 담당 과장인데 영어를 잘 한다는 것은 이미 잘 알고 있었지만 영어로 위트와 유머를 하는 것 보고 나는 놀랍고 존경까지 하는 마음이 들었다. 물론 그 과장은 한국말로도 유창하게 주위 사람들의 혼이 빠지도록 하는 대화기술이 좋다. 그런데 영어로 그렇게 자연스럽게 되다니. 그 사람이 어떻게 공부했는지 궁금하다(아직 물어보지 않았다).</p>
+
+<p>나는 그 과장까지는 아니지만 내가 훗날 비즈니스를 통해 부끄럼 없이 미팅을 주도하고 계약서에 싸인할 정도로 내 실력을 만들고 싶다. 몇 가지 영어를 잘하고 싶은 것의 다음의 목표가 있다. 왜 이 목표인가는 여러 가지 이유가 분명 존재한다. 하지만 하나하나 설명하는 것보다 진행하면서 공유하려고 한다.</p>
+
+<ol>
+  <li>Vocabulary 22,000</li>
+  <li>Free Talking</li>
+  <li>1주일에 1개 이상 영어로 블로깅</li>
+  <li>비즈니스 영어: 컨퍼런스 콜, 전화받기, 회의, 메일, 프리젠테이션</li>
+  <li>토플 100 점</li>
+  <li>SPA 레벨 5</li>
+  <li>원서 100권 읽기</li>
+  <li>영화 자막 없이 보기</li>
+</ol>
+
+<p>얼마나 걸리지 모르겠으나 하나하나 독파해보려고 한다. 아무리 시대가 변해 영어를 잘하는 사람들이 많이 생겨나고 있지만 여전히 수 많은 대한민국 사람들이 고민하고 있다. 나 같이 보통 사람이 어떻게 영어를 극복해 나가는지 그 과정을 여기에 모두 남기고 공유하고 가능하면 의견을 나누고 싶다.</p>
+
+  
+  </section>
+  
+  <!-- Social media shares -->
+  <div class="share-buttons">
+    <ul class="share-buttons">
+        <div class="meta">Share</div>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/english/2018/10/13/English-0day.html" target="_blank" title="Share on Facebook">
+			<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+			<span class="sr-only">Share on Facebook</span>
+		</a>
+        </li>
+                 
+        <li>
+            <a href="mailto:?subject=%EC%98%81%EC%96%B4+%EB%AA%A9%ED%91%9C%20%7C%20Hacking+for+my+life&body=:%20http://localhost:4000/english/2018/10/13/English-0day.html" target="_blank" title="Email">
+			<i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+			<span class="sr-only">Email</span>
+		</a>
+        </li>
+        
+    </ul>
+</div>
+   
+   <!-- Tag list -->
+  
+  
+
+
+<footer>
+  <div class="tag-list">
+    
+      <div class="meta">Tag</div>
+    
+
+    
+    <a class="button" href="/tags#English">
+      <p><i class="fa fa-tag fa-fw"></i> English</p>
+    </a>
+    
+  </div>
+</footer>
+
+    
+</article>
+
+<!-- Disqus -->
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'floweaver';
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+</div>
+
+
+<!-- Post navigation -->
+
+  <div id="post-nav">
+  
+  <div id="previous-post" class="post-nav-post">
+      <p>Previous post</p>
+      <a href="/jekyll/2014/11/30/sample-post.html">
+        Sample post
+      </a>
+  </div>
+  
+  
+</div>
+
+    </div>
+    
+<footer class="site-footer">
+    <p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+
+
+<li>
+	<a href="mailto:guhnguk.ahn@gmail.com" title="Email">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/guhnguk" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+
+  </body>
+</html>
